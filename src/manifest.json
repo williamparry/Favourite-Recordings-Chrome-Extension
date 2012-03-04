@@ -1,0 +1,23 @@
+{
+  "name": "Favourite Recordings - uncompressed",
+  "version": "0.2",
+  "icons": {
+    "48": "img/logo.png",
+    "128": "img/logo.png"
+  },
+  "description": "Listen to your favourite music from your Google Docs",
+  "background_page": "background.html",
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+	"notifications",
+    "https://docs.google.com/feeds/*",
+    "https://www.google.com/accounts/OAuthGetRequestToken",
+    "https://www.google.com/accounts/OAuthAuthorizeToken",
+    "https://www.google.com/accounts/OAuthGetAccessToken"
+  ]
+}
